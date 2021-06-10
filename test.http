@@ -1,0 +1,16 @@
+Send Request
+ POST http://localhost:4000/app/signup
+Content-type: application/json
+
+{
+  "fullName": "Yusuf",
+  "userName": "Olaitan",
+  "email": "yusluv124@gmail.com",
+  "password": Jolayemi1432
+}
+
+{showDocument === true ? (
+                      <img src={CircleCheck} alt="check" />
+                    ) : (
+                      <img src={ErrorOutline} alt="error" />
+                    )}
