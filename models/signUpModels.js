@@ -1,6 +1,6 @@
-const mongoosee = require('mongoose')
+const mongoose = require('mongoose')
 
-const signUpTemplate = new mongoosee.Schema({
+const signUpTemplate = new mongoose.Schema({
   fullName: {
     type: String,
     required: true
